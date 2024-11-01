@@ -44,7 +44,7 @@ Examples:
 ```bash
 kubectl get pod mypod -o yaml | kubectl neat
 
-kubectl get pod mypod -oyaml | kubectl neat -o json
+kubectl get pod mypod -o yaml | kubectl neat -o json
 
 kubectl neat -f - <./my-pod.json
 
